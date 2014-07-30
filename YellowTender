@@ -1,0 +1,17 @@
+#! /bin/bash
+
+if [ $# -le 0 ];
+then
+	echo "try: YellowTender (start | stop)";
+else
+	if [ $1 == "start" ];
+	then
+		echo "Starting YellowTender..."
+		java -classpath bin:libs/postgresql-9.2-1002.jdbc4.jar:libs/smtp.jar:libs/snmp4j-2.1.0.jar:libs/mailapi.jar YellowTender &
+	fi
+	if [ $1 == "stop" ];
+	then
+		pid=$(ps x | grep -m1 "YellowTender" | cut -d' ' -f1)
+		kill -15 $pid
+	fi
+fi 

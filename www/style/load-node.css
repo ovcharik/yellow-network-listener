@@ -1,0 +1,95 @@
+.loadNodeForm .content {
+    width: 500px;
+    left: -250px;
+}
+
+.loadNodeForm .window-title {
+    cursor: move;
+}
+
+.loadNodeForm .overflow {
+    max-height: 500px;
+}
+
+.loadNodeForm .typeimg {
+    position: absolute;;
+    display: block;
+    right: 10px;
+    top: 10px;
+}
+
+.loadNodeForm .table {
+    display: table;
+}
+
+.loadNodeForm .row {
+    display: table-row;
+}
+
+.loadNodeForm .row div {
+    display: table-cell;
+    padding: 2px 1px;
+    font-size: 12px;
+    vertical-align: middle;
+    border-bottom: 1px gray solid;
+}
+
+.loadNodeForm .row .portId {
+    width: 7%;
+}
+
+.loadNodeForm .row .descr {
+    width: 25%;
+}
+
+.loadNodeForm .row .ip {
+    width: 20%;
+}
+
+.loadNodeForm .row .graph {
+    width: 40%;
+    text-align: center;
+}
+
+.loadNodeForm .row .history {
+    text-align: center;
+    cursor: pointer;
+    width: 8%;
+}
+
+.loadNodeForm .row .history p {
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.7);
+    font-size: 20px;
+    color: #FFF;
+    font-weight: bolder;
+    padding: 2px 5px;
+}
+
+.loadNodeForm .row .history p:hover {
+    border-radius: 5px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.loadNodeForm .row .history p:active {
+    border-radius: 5px;
+    box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.loadNodeForm .row .graph canvas {
+}
+
+.loadNodeForm .time div {
+    padding-right: 10px;
+    display: inline-block;
+}
+
+.loadNodeForm select {
+    width: 150px;
+}
+
+.loadNodeForm .time div .label {
+    font-size: 12px;
+    padding: 3px 0;
+}

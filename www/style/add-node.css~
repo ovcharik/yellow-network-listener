@@ -1,0 +1,105 @@
+#addNodeForm .content {
+    width: 500px;
+    left: -250px;
+    display: none;
+}
+
+#addNodeForm .window-title {
+    cursor: move;
+}
+
+#addNodeForm .overflow {
+    max-height: 500px;
+}
+
+#addNodeForm .links input {
+    display: inline-block;
+    margin: 3px 0;
+}
+
+#addNodeForm .label h3 {
+    font-weight: normal;
+}
+
+#addNodeForm .portsInfo .row div {
+    display: inline-block;
+    font-size: 14px;
+}
+
+#addNodeForm .portsInfo .head div {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#addNodeForm .portsInfo .portId {
+    width: 7%;
+}
+
+#addNodeForm .portsInfo .descriptor {
+    width: 25%;
+}
+
+#addNodeForm .portsInfo .maxSpeed {
+    width: 15%;
+}
+
+#addNodeForm .portsInfo .macAddress {
+    width: 25%;
+}
+
+#addNodeForm .portsInfo .ipAddress {
+    width: 23%;
+}
+
+#addNodeForm .portsInfo .input {
+    width: 90%;
+    margin: 1px 0;
+}
+
+#addNodeForm .portsInfo .delete {
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.7);
+    font-size: 20px;
+    color: #FFF;
+    font-weight: bolder;
+    padding: 1px 5px;
+    cursor: pointer;
+}
+
+#addNodeForm .portsInfo .delete:hover {
+    border-radius: 5px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.1);
+}
+
+#addNodeForm .portsInfo .delete:active {
+    border-radius: 5px;
+    box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.1);
+}
+
+#addNodeForm .portsInfo .head {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+#addNodeForm .portsInfo .row:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+#addNodeForm .buttom {
+    margin-top: 15px;
+    width: 100%;
+}
+
+#addNodeForm .snmp div {
+    padding-right: 10px;
+}
+
+#addNodeForm select {
+    width: 160px;
+}
+
+#addNodeForm .snmp div .label {
+    font-size: 12px;
+    padding: 3px 0;
+}

@@ -1,0 +1,38 @@
+#listNodeForm .content {
+    width: 300px;
+    left: -150px;
+}
+
+#listNodeForm .window-title {
+    cursor: move;
+}
+
+#listNodeForm .row {
+    padding: 5px 0;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+#listNodeForm .row:hover {
+    background: rgba(0,0,0,0.1);
+}
+
+#listNodeForm .row div{
+    display: inline-block;
+}
+
+#listNodeForm .row .id {
+    width: 15%;
+}
+
+#listNodeForm .row .name {
+    width: 50%;
+}
+
+#listNodeForm .row .ip {
+    width: 35%;
+}
+
+#listNodeForm .input {
+    width: 292px;
+}

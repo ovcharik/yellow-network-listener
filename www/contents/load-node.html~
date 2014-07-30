@@ -1,0 +1,9 @@
+<div class="window loadNodeForm" id="w_node">
+    <div class="content">
+        <div class="window-title" onmousedown="windowMoveOn(event, $(this).parent().parent())">
+            <div class="close-buttom" onclick="$(this).parent().parent().parent().remove()">x</div>
+            <p class="title">Нагрузка на узел</p>
+        </div>
+        <form class="overflow"></div>
+    </div>
+</div>

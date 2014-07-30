@@ -1,0 +1,78 @@
+<div id="addNodeForm" class="window">
+    <div class="content">
+        <div class="window-title" onmousedown="windowMoveOn(event, $(this).parent().parent())">
+            <div class="close-buttom" onclick="$(this).parent().parent().parent().remove()">x</div>
+            <p class="title">Добавление нового узла</p>
+        </div>
+        <form class="overflow" action="javascript:addNodeSend()">
+            
+            <p class="title2">Параметры узла:</p>
+            <p class="label">Адрес узла:</p>
+            <input type="text" name="addNodeIP" class="input" onchange="getNodeInfo($(this).val())"/>
+             
+            <p class="label">Параметры snmp:</p>
+            <div class="snmp">
+                <div style="display: inline-block">
+                    <p class="label">Версия протокола:</p>
+                    <select size="1" name="addNodeSnmpV" onchange="addNodeSnmpVChange()">
+                        <option value="1" disabled>1</option>
+                        <option value="2" selected>2c</option>
+                        <option value="3" disabled>3</option>
+                    </select>
+                </div>
+                <div id="addNodeSnmpC" style="display: inline-block">
+                    <p class="label">Комюнити:</p>
+                    <input type="text" name="addNodeSnmpC" class="input" value="public"/>
+                </div>
+                <div id="addNodeSnmpU" style="display: none">
+                    <p class="label">Имя пользователя:</p>
+                    <input type="text" name="addNodeSnmpU" class="input" />
+                </div>
+                <div id="addNodeSnmpP" style="display: none">
+                    <p class="label">Пароль:</p>
+                    <input type="text" name="addNodeSnmpP" class="input" />
+                </div>
+            </div>
+            
+            <p class="label">Тип узла:</p>
+            <select size="1" name="addNodeType">
+                <option value="1">Desktop</option>
+                <option value="2">Hub</option>
+                <option value="3">Router</option>
+                <option value="4">Switch</option>
+                <option value="5">Wireless</option>
+                <option value="6">Wireless router</option>
+                <option value="7">Server</option>
+                <option value="8">Server Application</option>
+                <option value="9">Server Database</option>
+                <option value="10">Server Directory</option>
+                <option value="11">Server Distribution</option>
+                <option value="12">Server File</option>
+                <option value="13">Server Gateway</option>
+                <option value="14">Server Identity</option>
+                <option value="15">Server Mail</option>
+                <option value="16">Server Media</option>
+                <option value="17">Server Monitor</option>
+                <option value="18">Server Proxy</option>
+                <option value="19">Server Terminal</option>
+                <option value="20">Server Web</option>
+                <option value="21">VPN</option>
+                <option value="22">Cloud</option>
+                <option value="23">Database</option>
+                <option value="24">Printer</option>
+                <option value="25">Laptop</option>
+            </select>
+            
+            <p class="title2">Информация об узле:</p>
+            <div class="nodeInfo">
+            </div>
+            <p class="title2">Порты узла:</p>
+            <div class="portsInfo">
+            </div>
+            <input id="addNodeSubmit" class="buttom" type="submit" value="Добавить" disabled="disabled" />
+        </form>
+    </div>
+    <script>
+        $(this).fadeTo("slow", 0.1);
+    </script>
+</div>

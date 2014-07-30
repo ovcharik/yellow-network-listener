@@ -1,0 +1,53 @@
+var renders = new Array();
+
+renders[0] = function(r, n) {var set = r.set().push(r.image("images/icons/osa_desktop.png", 0, 0, 64, 64)).push(r.text(30, 80, n.label || n.id).attr({"font-size": 12, "font-weight": "bold"}));return set;};
+
+renders[1] = function(r, n) {var set = r.set().push(r.image("images/icons/osa_desktop.png", 0, 0, 64, 64)).push(r.text(30, 80, n.label || n.id).attr({"font-size": 12, "font-weight": "bold"}));return set;};
+
+renders[2] = function(r, n) {var set = r.set().push(r.image("images/icons/osa_hub.png", 0, 0, 64, 64)).push(r.text(30, 80, n.label || n.id).attr({"font-size": 12, "font-weight": "bold"}));return set;};
+
+renders[3] = function(r, n) {var set = r.set().push(r.image("images/icons/osa_router.png", 0, 0, 64, 64)).push(r.text(30, 80, n.label || n.id).attr({"font-size": 12, "font-weight": "bold"}));return set;};
+
+renders[4] = function(r, n) {var set = r.set().push(r.image("images/icons/osa_switch.png", 0, 0, 64, 64)).push(r.text(30, 80, n.label || n.id).attr({"font-size": 12, "font-weight": "bold"}));return set;};
+
+renders[5] = function(r, n) {var set = r.set().push(r.image("images/icons/osa_wireless_network.png", 0, 0, 64, 64)).push(r.text(30, 80, n.label || n.id).attr({"font-size": 12, "font-weight": "bold"}));return set;};
+
+renders[6] = function(r, n) {var set = r.set().push(r.image("images/icons/osa_device-wireless-router.png", 0, 0, 64, 64)).push(r.text(30, 80, n.label || n.id).attr({"font-size": 12, "font-weight": "bold"}));return set;};
+
+renders[7] = function(r, n) {var set = r.set().push(r.image("images/icons/osa_server.png", 0, 0, 64, 64)).push(r.text(30, 80, n.label || n.id).attr({"font-size": 12, "font-weight": "bold"}));return set;};
+
+renders[8] = function(r, n) {var set = r.set().push(r.image("images/icons/osa_server_application.png", 0, 0, 64, 64)).push(r.text(30, 80, n.label || n.id).attr({"font-size": 12, "font-weight": "bold"}));return set;};
+
+renders[9] = function(r, n) {var set = r.set().push(r.image("images/icons/osa_server_database.png", 0, 0, 64, 64)).push(r.text(30, 80, n.label || n.id).attr({"font-size": 12, "font-weight": "bold"}));return set;};
+
+renders[10] = function(r, n) {var set = r.set().push(r.image("images/icons/osa_server_directory.png", 0, 0, 64, 64)).push(r.text(30, 80, n.label || n.id).attr({"font-size": 12, "font-weight": "bold"}));return set;};
+
+renders[11] = function(r, n) {var set = r.set().push(r.image("images/icons/osa_server_distribution.png", 0, 0, 64, 64)).push(r.text(30, 80, n.label || n.id).attr({"font-size": 12, "font-weight": "bold"}));return set;};
+
+renders[12] = function(r, n) {var set = r.set().push(r.image("images/icons/osa_server_file.png", 0, 0, 64, 64)).push(r.text(30, 80, n.label || n.id).attr({"font-size": 12, "font-weight": "bold"}));return set;};
+
+renders[13] = function(r, n) {var set = r.set().push(r.image("images/icons/osa_server_gateway.png", 0, 0, 64, 64)).push(r.text(30, 80, n.label || n.id).attr({"font-size": 12, "font-weight": "bold"}));return set;};
+
+renders[14] = function(r, n) {var set = r.set().push(r.image("images/icons/osa_server_identity.png", 0, 0, 64, 64)).push(r.text(30, 80, n.label || n.id).attr({"font-size": 12, "font-weight": "bold"}));return set;};
+
+renders[15] = function(r, n) {var set = r.set().push(r.image("images/icons/osa_server_mail.png", 0, 0, 64, 64)).push(r.text(30, 80, n.label || n.id).attr({"font-size": 12, "font-weight": "bold"}));return set;};
+
+renders[16] = function(r, n) {var set = r.set().push(r.image("images/icons/osa_server_media.png", 0, 0, 64, 64)).push(r.text(30, 80, n.label || n.id).attr({"font-size": 12, "font-weight": "bold"}));return set;};
+
+renders[17] = function(r, n) {var set = r.set().push(r.image("images/icons/osa_server_monitor.png", 0, 0, 64, 64)).push(r.text(30, 80, n.label || n.id).attr({"font-size": 12, "font-weight": "bold"}));return set;};
+
+renders[18] = function(r, n) {var set = r.set().push(r.image("images/icons/osa_server_proxy.png", 0, 0, 64, 64)).push(r.text(30, 80, n.label || n.id).attr({"font-size": 12, "font-weight": "bold"}));return set;};
+
+renders[19] = function(r, n) {var set = r.set().push(r.image("images/icons/osa_server_terminal.png", 0, 0, 64, 64)).push(r.text(30, 80, n.label || n.id).attr({"font-size": 12, "font-weight": "bold"}));return set;};
+
+renders[20] = function(r, n) {var set = r.set().push(r.image("images/icons/osa_server_web.png", 0, 0, 64, 64)).push(r.text(30, 80, n.label || n.id).attr({"font-size": 12, "font-weight": "bold"}));return set;};
+
+renders[21] = function(r, n) {var set = r.set().push(r.image("images/icons/osa_vpn.png", 0, 0, 64, 64)).push(r.text(30, 80, n.label || n.id).attr({"font-size": 12, "font-weight": "bold"}));return set;};
+
+renders[22] = function(r, n) {var set = r.set().push(r.image("images/icons/osa_cloud.png", 0, 0, 64, 64)).push(r.text(30, 80, n.label || n.id).attr({"font-size": 12, "font-weight": "bold"}));return set;};
+
+renders[23] = function(r, n) {var set = r.set().push(r.image("images/icons/osa_database.png", 0, 0, 64, 64)).push(r.text(30, 80, n.label || n.id).attr({"font-size": 12, "font-weight": "bold"}));return set;};
+
+renders[24] = function(r, n) {var set = r.set().push(r.image("images/icons/osa_printer.png", 0, 0, 64, 64)).push(r.text(30, 80, n.label || n.id).attr({"font-size": 12, "font-weight": "bold"}));return set;};
+
+renders[25] = function(r, n) {var set = r.set().push(r.image("images/icons/osa_laptop.png", 0, 0, 64, 64)).push(r.text(30, 80, n.label || n.id).attr({"font-size": 12, "font-weight": "bold"}));return set;};

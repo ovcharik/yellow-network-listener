@@ -1,0 +1,20 @@
+function getContent() {
+    $.ajax({
+        url: "getcontent",
+        dataType: "html",
+        success: function (data, textStatus) {
+            $("#content").html(data);
+        }
+    });
+}
+
+function getHeader() {
+    $("#header").html("");
+    $.ajax({
+        url: "getheader",
+        dataType: "html",
+        success: function (data, testStatus) {
+            $("#header").html(data);
+        }
+    });
+}
