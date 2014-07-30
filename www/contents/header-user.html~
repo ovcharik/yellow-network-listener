@@ -1,9 +1,0 @@
-<div class="title">
-    <h1>Yellow Server</h1>
-</div>
-<div class="buttoms">
-    <div class="bottom" id="logout" title="Выход" onclick="authLogout()">Выход</div>
-    <script>
-        resize();
-    </script>
-</div>
