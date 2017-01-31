@@ -205,7 +205,7 @@ YeSGraph.Loads.prototype = {
             var x = stX + Math.round(gpW / (chart.length - 1) * i);
             
             if (chart[i].in > 0) {
-                y = Math.round(h - (chart[i].in / max * h));
+                y = Math.round(h - (chart[i]['in'] / max * h));
             }
             ctx.lineTo(x, y);
         }

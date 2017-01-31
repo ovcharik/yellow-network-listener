@@ -255,6 +255,7 @@ YeSGraph.prototype = {
         
         // Added nodes, and creating edges table
         for (var i in this.data) {
+            var self = this;
             var node = this.data[i];
             if (!node.name) {
                 node.name = "node";
@@ -262,11 +263,9 @@ YeSGraph.prototype = {
             var label = node.name + "\n(" + node.ip + ")";
             
             var img = node.type;
-            if (img > 25 && img < 0) img = 0;
+            if (0 > img || img > 25) img = 0;
             
-            var g = this;
-            
-            graph.addNode(i, {render: renders[img], label: label, yesGraph: g});
+            graph.addNode(i, {render: renders[img], label: label, yesGraph: self});
             nodesCount++;
         }
         
